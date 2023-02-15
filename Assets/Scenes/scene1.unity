@@ -10229,6 +10229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Group (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5962091236195200101, guid: 454dcfda5e90a5b478303c4270348216, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
     - target: {fileID: 6543077521207811389, guid: 454dcfda5e90a5b478303c4270348216, type: 3}
       propertyPath: m_RootOrder
       value: 10
