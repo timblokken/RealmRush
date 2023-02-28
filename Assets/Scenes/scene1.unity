@@ -23103,11 +23103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f1832d7cf750b4aa150e0ca57d9099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentSearchNode:
-    coordinates: {x: 5, y: 5}
-    isWalkable: 0
-    isExplored: 0
-    isPath: 0
+  startCoordinates: {x: 0, y: 0}
+  destinationCoordinates: {x: 3, y: 2}
 --- !u!4 &1126614076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2411326849717452122, guid: 1e3b7c16385cc67448a64a2a2898f973, type: 3}
@@ -31397,7 +31394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1273613237915205762, guid: ee818abb0517354498e03be959a62bef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.962326
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1273613237915205762, guid: ee818abb0517354498e03be959a62bef, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31405,7 +31402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1273613237915205762, guid: ee818abb0517354498e03be959a62bef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.24370575
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1273613237915205762, guid: ee818abb0517354498e03be959a62bef, type: 3}
       propertyPath: m_LocalRotation.w
